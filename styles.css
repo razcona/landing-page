@@ -29,12 +29,7 @@ body {
     color: #E5E7EB;
 }
 
-.header-left {
-    display: flex;
-    flex-direction: column;
-}
-
-.header-right {
+.header-left, .header-right {
     display: flex;
     flex-direction: column;
 }
@@ -68,8 +63,8 @@ button {
     text-decoration: none;
     border-radius: 6px;
     padding: 6px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     align-self: start;
 }
 
@@ -142,3 +137,37 @@ a {
     color: #1F2937;
     font-weight: 600;
 }
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    width: 900px;
+    height: 125px;
+    margin: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.action-text-main {
+    font-size: 20px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.signup-text {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+button.white {
+    border: 2px solid white;
+}
+
+
